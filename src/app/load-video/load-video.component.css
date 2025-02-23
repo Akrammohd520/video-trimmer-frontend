@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Center the video trimming form */
+.trim-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+.trim-form h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Style the label */
+.trim-form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style the input field */
+.trim-form input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+/* Style the trim button */
+.trim-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.trim-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the progress container */
+.progress-container {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+/* Style the progress bar */
+.progress-bar {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+}

@@ -1,0 +1,10 @@
+<h2>Video Title: {{ selectedFileName }}</h2>
+
+<label for="numParts">Number of Parts:</label>
+<input type="number" id="numParts" [(ngModel)]="numParts">
+
+<label for="textInput">Text to Add:</label> <!-- Add label for text input field -->
+<input type="text" id="textInput" [(ngModel)]="textToAdd"> <!-- Add input field for text -->
+
+<button (click)="trimVideo()">Trim Video</button>
+<div *ngIf="successMessage" class="success-message">{{ successMessage }}</div>

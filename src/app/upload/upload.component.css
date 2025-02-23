@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Center the upload container */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added a bit more shadow for a glowy effect */
+}
+
+/* Style the header */
+.upload-container h2 {
+  font-size: 24px; /* Increased font size for better readability */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px; /* Increased margin for better separation */
+  text-align: center; /* Center-align the header */
+}
+
+/* Style the file input */
+.upload-container input[type="file"] {
+  width: 100%;
+  padding: 12px; /* Increased padding for a more appealing input field */
+  border: 2px solid #007bff; /* Added a border to make the input field stand out */
+  border-radius: 6px; /* Slightly increased border radius */
+  margin-bottom: 24px; /* Increased margin for better separation */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Add a subtle glow on focus for the file input */
+.upload-container input[type="file"]:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.4); /* Added a subtle blue glow on focus */
+}
+
+/* Style the upload button */
+.upload-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* Slightly increased border radius */
+  padding: 14px 24px; /* Increased padding for a more appealing button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Added a subtle blue glow */
+}
+
+/* Add a subtle glow on hover for the upload button */
+.upload-container button:hover {
+  background-color: #0056b3; /* Darker shade on hover for contrast */
+}
